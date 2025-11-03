@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home - Hycen Food</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .navbar-dark {
+      background-color: #333;
+    }
+    .hero {
+      height: 300px;
+      background-color: #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero h2 {
+      color: #aaa;
+    }
+    .btn-menu {
+      background-color: #00bfff;
+      color: white;
+      font-weight: bold;
+    }
+    .btn-menu:hover {
+      background-color: #009acd;
+      color: white;
+      font-weight: bold;
+    }
+    .card-placeholder {
+      background-color: #ccc;
+      height: 170px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .card-placeholder button {
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Banner -->
+  <div class="hero">
+    <h2 class="text-muted">[ Banner Gambar / Slider Di Sini ]</h2>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Hycen Food</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="daftarmenu.html">DAFTAR MENU</a></li>
+          <li class="nav-item"><a class="nav-link" href="pesanan.html">PESANAN</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">LOGOUT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Konten Utama -->
+  <div class="container text-center my-5">
+    <h4 class="fw-bold">HYCEN FOOD</h4>
+    <p>Desa Pengenjek, kabupaten Lombok Tengah<br>Buka Jam <strong>16:00 - 23:00</strong></p>
+
+    <div class="row justify-content-center gy-3 mt-4">
+      <div class="col-12 col-md-3">
+        <div class="card-placeholder">
+          <a href="daftarmenu.html" class="btn btn-menu">LIHAT MENU</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-3">
+        <div class="card-placeholder">
+          <a href="pesanan.html" class="btn btn-menu">PESANAN</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
